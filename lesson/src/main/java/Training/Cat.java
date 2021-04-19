@@ -15,4 +15,22 @@ public class Cat {
     public int getAge {
         return age;
     }
+    public void setName (String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+    public String getColour() {
+        return colour;
+    }
+    public void setAge (int age) {
+        this.age = age;
+    }
+    public int getAge() {
+        return age;
+    }
 }
